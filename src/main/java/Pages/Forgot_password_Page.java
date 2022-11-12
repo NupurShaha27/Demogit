@@ -41,4 +41,12 @@ public class Forgot_password_Page {
 		String message=driver.findElement(returnmessgae).getText();
 		System.out.println(message);
 	}
+	
+	//Back to login
+	By backloginlinkclick= By.xpath("//span[@class='back-to-login cursor-pointer']");
+	
+	public void backloginclick()
+	{
+		driver.findElement(backloginlinkclick);
+	}
 }

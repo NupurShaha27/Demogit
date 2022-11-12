@@ -26,6 +26,7 @@ public class Test_forgotPassword {
     link_click_object.btnclick();
     Thread.sleep(3000L);
     link_click_object.messagereceived();
+    link_click_object.backloginclick();
     
     driver.close();
 }
