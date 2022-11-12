@@ -26,6 +26,7 @@ public class TestCase_Login_LacNo {
 	    objectLACNO.submitbtn_click();
 	    driver.close();
 	    System.out.println("GIT check..");
+	    System.out.println("Check branch working..");
 	}
 
 }
