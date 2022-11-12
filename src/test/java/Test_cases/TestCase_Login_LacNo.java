@@ -25,6 +25,7 @@ public class TestCase_Login_LacNo {
 	    objectLACNO.InputLACNo();
 	    objectLACNO.submitbtn_click();
 	    driver.close();
+	    System.out.println("GIT check..");
 	}
 
 }

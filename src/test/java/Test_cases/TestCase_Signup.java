@@ -26,6 +26,6 @@ public class TestCase_Signup {
 	    signupflowobject.signupnavigate();
 	    signupflowobject.INPUTFIELDSIGNUP();
 	    signupflowobject.signuppassword();
-	     
+	     System.out.println("Git check...");
 	}	    
 }
